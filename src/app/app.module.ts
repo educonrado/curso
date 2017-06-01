@@ -9,13 +9,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { EmpleadoComponent } from './empleado/empleado.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { CocheComponent } from './coche/coche.component';
+import { PlantillasComponent } from './plantillas/plantillas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EmpleadoComponent,
-    ContactoComponent
+    ContactoComponent,
+    CocheComponent,
+    PlantillasComponent
   ],
   imports: [
     BrowserModule,
